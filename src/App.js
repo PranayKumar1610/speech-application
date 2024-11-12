@@ -6,6 +6,7 @@ import ScoreBoard from './Scoreboard';
 import AuthForm from './AuthForm';
 import NextLevel from './NextLevel';
 import Final from './Final';
+import Dashboard from './Dashboard'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/score-board" element={<ScoreBoard/>} />
         <Route path="/level-tenses" element={<NextLevel/>} />
         <Route path="/end" element={<Final/>} />
+        <Route path="/dashboard" element={<Dashboard/>} />
       </Routes>
     </Router>
   );
